@@ -15,6 +15,7 @@ Steps:
 2. Press [1]
 3. Enter your Username/Email
 4. Enter your Password
+<br>
 And you're done, let the browser do the rest.
 
 Option 2:
@@ -35,6 +36,7 @@ Tip: The list has to be formatted like this: ["account1", "account2", "account3"
 2. Save the file
 3. Run the script
 4. Press [2]
+<br>
 And you're done, let the browser do the rest.
 
 # Known Issues
