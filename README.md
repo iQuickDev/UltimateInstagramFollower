@@ -9,7 +9,7 @@ python ../UltimateInstagramFollower.py
 # Running the script
 
 Option 1:<br>
-Simple credentials input and default values
+Simple credentials input and default values<br>
 Steps:
 1. Run the script
 2. Press [1]
