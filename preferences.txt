@@ -1,0 +1,13 @@
+username
+password
+["account1", "account2"]
+2
+3
+12
+
+# 1. Username
+# 2. Password
+# 3. Accounts to get followers from
+# 4. Minimum delay
+# 5. Maximum delay
+# 6. Number of accounts to follow

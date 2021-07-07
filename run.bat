@@ -1,0 +1,2 @@
+cd Desktop/UltimateInstagramFollower
+python UltimateInstagramFollower.py
