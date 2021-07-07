@@ -14,22 +14,21 @@ defaultAccountsToFollowCount = 10
 username = ""
 password = ""
 accountsList = ""
-minDelayValue = ""
-maxDelayValue = ""
-accountsToFollowCount = ""
-
+minDelayValue = 0
+maxDelayValue = 0
+accountsToFollowCount = 0
 
 def Loader(choice):
     if choice == "1":
         username = input("Username/Email: ")
         password = input("Password: ")
         print("---------- LOADED CONFIGURATION ----------")
-        print("Username: " + username)
-        print("PW: " + password)
-        print("Accounts: " + defaultAccountsList)
-        print("Minimum Delay: " + defaultMinDelayValue)
-        print("Maximum Delay: " + defaultMaxDelayValue)
-        print("N. of accounts to follow: " + defaultAccountsToFollowCount)
+        print(f"Username: {username}")
+        print(f"PW: {password}")
+        print(f"Accounts: {defaultAccountsList}")
+        print(f"Minimum Delay: {defaultMinDelayValue}")
+        print(f"Maximum Delay: {defaultMaxDelayValue}")
+        print(f"N. of accounts to follow: {defaultAccountsToFollowCount}")
         print("-------------------------------------------")
         begin(username, password, defaultAccountsList, defaultMinDelayValue, defaultMaxDelayValue, defaultAccountsToFollowCount)
     elif choice == "2":
@@ -42,12 +41,12 @@ def Loader(choice):
         maxDelayValue = file.readline()
         accountsToFollowCount = file.readline()
         print("---------- LOADED CONFIGURATION ----------")
-        print("Username: " + username)
-        print("PW: " + password)
-        print("Accounts: " + accountsList)
-        print("Minimum Delay: " + minDelayValue)
-        print("Maximum Delay: " + maxDelayValue)
-        print("N. of accounts to follow: " + accountsToFollowCount)
+        print(f"Username: {username}")
+        print(f"PW: {password}")
+        print(f"Accounts: {accountsList}")
+        print(f"Minimum Delay: {minDelayValue}")
+        print(f"Maximum Delay: {maxDelayValue}")
+        print(f"N. of accounts to follow: {accountsToFollowCount}")
         print("-------------------------------------------")
         file.close()
         begin(username, password, accountsList, minDelayValue, maxDelayValue, accountsToFollowCount)
@@ -55,7 +54,7 @@ def Loader(choice):
         print("Invalid Option")
 
 def begin(username, password, accounts, mindelay, maxdelay, accountstofollowcount):
-    browser = webdriver.Chrome("C:\\Users\\iQuick\\Desktop\\UltimateInstragramFollower\\chromedriver.exe")
+    browser = webdriver.Chrome("C:\\Users\\iQuick\\Desktop\\UltimateInstagramFollower\\chromedriver.exe")
     browser.get("https://instagram.com")
     time.sleep(GetRandomTime())
     browser.find_element_by_xpath("/html/body/div[3]/div/div/button[1]") \
@@ -125,7 +124,7 @@ def GetRandomTime():
 print("                                                                                    ")
 print("          -------------------------------------------------------                   ")
 print("          |       ULTIMATE INSTAGRAM FOLLOWER (by iQuick)       |                   ")
-print("          |                        v0.3                         |                   ")
+print("          |                        v0.4                         |                   ")
 print("          |            IG: @iquickdev | Website: iquick.ml      |                   ")
 print("          -------------------------------------------------------                   ")
 print("                                                                                    ")
