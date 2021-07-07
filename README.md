@@ -8,7 +8,7 @@ python ../UltimateInstagramFollower.py
 ```
 # Running the script
 
-Option 1:
+Option 1:<br>
 Simple credentials input and default values
 Steps:
 1. Run the script
@@ -18,11 +18,10 @@ Steps:
 <br>
 And you're done, let the browser do the rest.
 
-Option 2:
+Option 2:<br>
 Credentials and values from file
 Steps:
 1. Open the file `preferences.txt` with any text editor and edit the values to your liking
-
 ```
 1st line: Username
 2nd line: Password
@@ -32,7 +31,6 @@ Tip: The list has to be formatted like this: ["account1", "account2", "account3"
 5th line: Maximum delay to execute an operation
 6th line: Number of accounts to follow on execution
 ```
-
 2. Save the file
 3. Run the script
 4. Press [2]
