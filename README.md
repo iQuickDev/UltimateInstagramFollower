@@ -19,7 +19,7 @@ Steps:
 And you're done, let the browser do the rest.
 
 Option 2:<br>
-Credentials and values from file
+Credentials and values from file<br>
 Steps:
 1. Open the file `preferences.txt` with any text editor and edit the values to your liking
 ```
